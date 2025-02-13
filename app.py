@@ -114,4 +114,4 @@ with gr.Blocks() as demo:
     audio_input.stop_recording(transcribe, inputs=audio_input, outputs=[output_text])
     response_btn.click(generate_response , outputs=[response_text_output, response_audio_output])
 
-demo.launch()
+demo.launch(share=True)
