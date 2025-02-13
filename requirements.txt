@@ -1,0 +1,7 @@
+pydantic
+google-genai
+soundfile
+kokoro
+chromadb
+numpy
+transformers
