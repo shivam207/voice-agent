@@ -25,4 +25,4 @@ jobs:
       run: python -c 'import huggingface_hub; huggingface_hub.login(token="${{ secrets.HUGGING_FACE_HUB_TOKEN }}")'
 
     - name: Deploy to Spaces
-      run: gradio deploy --title "Customer Voice Agent Demo"
+      run: gradio deploy --title "Customer Voice Agent Demo" --app-file app.py
