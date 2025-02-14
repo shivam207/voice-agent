@@ -1,9 +1,9 @@
-fastapi==0.112.2
-pydantic
+pydantic==2.7
 google-genai
 soundfile
 kokoro
 chromadb
 numpy
 transformers
+torchaudio
 
